@@ -1,0 +1,132 @@
+.pd-out {
+    padding: 20px;
+}
+
+/* Header */
+ul {
+    list-style-type: unset;
+}
+
+li {
+    float: left;
+    display: block;
+}
+
+.normal-lineheight {
+    line-height: normal;
+}
+
+.margin-unset {
+    margin: unset;
+}
+
+.prettier {
+    background-color: #b400ff;
+    border-radius: 10px;
+}
+
+.bg-color-unset {
+    background-color: unset;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 600;
+    margin: unset;
+}
+
+.custom {
+    padding: unset;
+    height: fit-content;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mg-left {
+    margin-left: 10px;
+}
+
+/* Content */
+.flex-row {
+    display: flex;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bg-color-lightpink {
+    background-color: #f0f2f5;
+}
+
+.row-pd {
+    padding: 0 40px 0 20px;
+}
+
+.big-number {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.left-pd {
+    padding-left: 5px;
+}
+
+.bg-color-lightblue {
+    background-color: blue;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.mg-bot {
+    margin-bottom: 20px;
+}
+
+/* Modal */
+.modal-menu {
+    height: 50px;
+}
+
+.modal-menu ul {
+    padding: unset;
+    height: inherit;
+    list-style-type: none;
+}
+
+.modal-menu ul li {
+    height: inherit;
+    float: left;
+    background-color: #f0f2f5;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid pink;
+}
+
+.pd{
+    padding: 0 3px 0 0 !important;
+}
+
+.full-w-h {
+    width: auto;
+    height: 100%;
+}
+
+.mg-10 {
+    margin: 10px;
+}

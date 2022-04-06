@@ -1,0 +1,28 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.flex-row {
+    display: flex;
+
+}
+
+.mg-left {
+    margin-left: 1em;
+}
+
+.custom-layout {
+    background-color: #dddfe2;
+    padding: 16px;
+}
+
+.bg-lightpink {
+    background-color: #f5f5f5;
+}

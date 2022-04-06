@@ -1,0 +1,42 @@
+.bg-white {
+    background-color: white;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.full-wh {
+    width: auto;
+    height: fit-content;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.mg-left {
+    margin-left: 20px;
+}
+
+.mg-right {
+    margin-right: 20px;
+}
+
+.mg-top {
+    margin-top: 20px;
+}
+
+.text-box {
+    line-height: initial;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}

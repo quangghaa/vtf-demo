@@ -1,0 +1,47 @@
+.pd-out {
+    padding: 20px;
+}
+
+/* Header */
+.background {
+    background-image: url('../assets/header_bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.box {
+    margin-left: -50px;
+    width: fit-content;
+    padding: 1rem 3rem;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+/* Content */
+.pd {
+    padding: 20px 10px;
+}
+
+.big-number {
+    font-size: 40px;
+    font-weight: 550;
+    margin: unset;
+}
+
+.white-bg {
+    background-color: white;
+    margin: unset;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mg-bot {
+    margin-bottom: 30px;
+}
+
