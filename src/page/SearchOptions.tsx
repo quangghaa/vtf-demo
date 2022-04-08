@@ -140,7 +140,11 @@ const Options = (props: any) => {
                         <br />
                         </>
                     ))}
-                    <Button type="primary">Use this product</Button>
+                    <Button type="primary">
+                      <Link to='/narrowing-down'>
+                          Use this product
+                      </Link>
+                    </Button>
                 </Card>
             </Col>
             <Col span={8}>

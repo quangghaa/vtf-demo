@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import '../style/dashboard.css';
 import { Card, Layout} from 'antd';
 import { Row, Col } from 'antd';
 import { Line } from '@ant-design/charts';
+import logo from '../assets/logo.jpg';
+import bigpic from '../assets/big-img.jpg';
 
 const { Header, Footer, Content } = Layout;
 
@@ -13,8 +14,7 @@ const Logo = () => {
   
     return (
         <div className='box'>
-        <h1>Welcome to</h1>
-        <img src="" alt="VTF_WEB" />
+        <img src={logo} alt="VTF_WEB" />
       </div>
     );
 };
@@ -199,13 +199,12 @@ const OrgDetail = () => {
             <Row>
                 <Col span={12}>
                     <Card>
-                        <p>BIG PICTURE</p>
-                        <img src="../assets/big_pic.png" alt="Big picture" height={500} />
+                        <img src={bigpic} alt="Big picture" height={500} />
                     </Card>
                 </Col>
                 {eventUploadData.map((eventData) => (
                     <Col span={12}>
-                        <Card>
+                        <Card className='chart-section'>
                                 <p>{eventData.name}</p>
                                 <Line
                                     data={eventData.data}

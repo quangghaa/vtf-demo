@@ -8,6 +8,7 @@ import { Cascader } from "antd";
 
 import { Table, Divider } from 'antd';
 import { Checkbox } from "antd";
+import { Link } from 'react-router-dom';
 
 const { Header, Content } = Layout;
 
@@ -25,12 +26,12 @@ const HeaderData = () => {
     return (
         <div>
                   {data.map((d) => (
-                    <>
+                    <div className='subtitle'>
                       <span className='prettier'>{d.name}</span>
                       <span className='mg-left prettier'>{d.dateRange}</span>
                       <span className='mg-left prettier'>{d.event}</span>
                       <span className='mg-left prettier'>{d.lot}</span>
-                    </>
+                    </div>
                   ))}
         </div>
     )
@@ -259,7 +260,9 @@ function NarrowDownSearch() {
                         Clear
                     </Button>
                     <Button type="default">
-                        Trace
+                        <Link to="/product-entry">
+                            Trace
+                        </Link>
                     </Button>
                 </div>
               </div>

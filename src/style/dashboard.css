@@ -4,18 +4,18 @@
 
 /* Header */
 .background {
-    background-image: url('../assets/header_bg.jpg');
-    background-size: 100%;
+    background-image: url('../assets/header-bg-edit.jpg');
+    /* background-size: 100%; */
     background-repeat: no-repeat;
-    width: 100%;
+    /* width: 100%; */
     height: 250px;
 }
 
 .box {
     margin-left: -50px;
     width: fit-content;
-    padding: 1rem 3rem;
-    background-color: blueviolet;
+    /* padding: 1rem 3rem; */
+    /* background-color: blueviolet; */
     color: white;
 }
 
@@ -45,3 +45,6 @@
     margin-bottom: 30px;
 }
 
+.chart-section{
+    /* height: 300px; */
+}

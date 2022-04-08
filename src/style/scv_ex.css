@@ -20,9 +20,16 @@ li {
     margin: unset;
 }
 
+.subtitle {
+    line-height: 22px;
+}
+
 .prettier {
     background-color: #b400ff;
     border-radius: 10px;
+    padding: 3px 10px;
+    color: #f0f2f5;
+    font-weight: 600;
 }
 
 .bg-color-unset {
